@@ -14,77 +14,88 @@
 </head>
 <body>
   <div w3-include-html="../barraPrincipal.html" class="row"></div>
+  <article>
   <div class="container">
     <div class="row">
-      <article>
-        <div class="col-sm-3">
-          <img class="img-responsive" src="/media/images/starwars_episode_i.png" alt="Episode I: The Phantom Menace">
-        </div>
-        <div class="col-sm-9">
-          <h1>Episode I: The Phantom Menace</h1>
+      <div class="col-sm-3">
+        <img  class="img-responsive" src="/media/images/starwars_episode_i.png" alt="Episode I: The Phantom Menace">
+      </div>
+      <div class="col-sm-9">
+        <h1>Episode I: The Phantom Menace</h1>
           <h2>Opening crawl</h2>
           <blockquote>
             <p>Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute.</p>
             <p>Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo.</p>
             <p>While the Congress of the Republic endlessly debates this alarming chain of events, the Supreme Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to settle the conflict...</p>
           </blockquote>
-          <h2>General information</h2>
-          <div class="row">
-            <div class="col-sm-6">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>Attribution information</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Director(s)</td>
-                    <td>George Lucas</td>
-                  </tr>
-                  <tr>
-                    <td>Producer(s)</td>
-                    <td>Rick McCallum</td>
-                  </tr>
-                  <tr>
-                    <td>Writer(s)</td>
-                    <td>George Lucas</td>
-                  </tr>
-                  <tr>
-                    <td>Starring</td>
-                    <td>
-                      <ul>
-                        <li>Liam Neeson</li>
-                        <li>Ewan McGregor</li>
-                        <li>Natalie Portman</li>
-                        <li>Jake Lloyd</li>
-                        <li>Pernilla August</li>
-                        <li>Frank Oz</li>
-                        <li>Ian McDiarmid</li>
-                        <li>Oliver Ford Davies</li>
-                        <li>Hugh Quarshie</li>
-                        <li>Ahmed Best</li>
-                        <li>Anthony Daniels</li>
-                        <li>Kenny Baker</li>
-                        <li>Terence Stamp</li>
-                        <li>Ray Park</li>
-                        <li>Samuel L. Jackson</li>
-                      </ul>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>Music by</td>
-                    <td>John Williams</td>
-                  </tr>
-                </tbody>
-                </table>
-              <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th>Production information</th>
-                  </tr>
-                </thead>
-                <tbody>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-9">
+        <h2>General information</h2>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#home">Attribution information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Production information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu2">Chronological information</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="container tab-pane"><br>
+            <h3>Attribution information</h3>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Director(s)</td>
+                  <td>George Lucas</td>
+                </tr>
+                <tr>
+                  <td>Producer(s)</td>
+                  <td>Rick McCallum</td>
+                </tr>
+                <tr>
+                  <td>Writer(s)</td>
+                  <td>George Lucas</td>
+                </tr>
+                <tr>
+                  <td>Starring</td>
+                  <td>
+                    <ul>
+                      <li>Liam Neeson</li>
+                      <li>Ewan McGregor</li>
+                      <li>Natalie Portman</li>
+                      <li>Jake Lloyd</li>
+                      <li>Pernilla August</li>
+                      <li>Frank Oz</li>
+                      <li>Ian McDiarmid</li>
+                      <li>Oliver Ford Davies</li>
+                      <li>Hugh Quarshie</li>
+                      <li>Ahmed Best</li>
+                      <li>Anthony Daniels</li>
+                      <li>Kenny Baker</li>
+                      <li>Terence Stamp</li>
+                      <li>Ray Park</li>
+                      <li>Samuel L. Jackson</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Music by</td>
+                  <td>John Williams</td>
+                </tr>
+            </tbody>
+          </table>
+          </div>
+          <div id="menu1" class="container tab-pane fade"><br>
+            <h3>Production information</h3>
+            <table class="table table-striped">
+            <tbody>
                   <tr>
                     <td>Distributor</td>
                     <td>20th Century Fox</td>
@@ -116,14 +127,12 @@
                     <td>English</td>
                   </tr>
                 </tbody>
-              </table>
-              <table class="table table-hover">
-                <thead>
-                  <tr>
-                    <th>Chronological information</th>
-                  </tr>
-                </thead>
-                <tbody>
+          </table>
+          </div>
+          <div id="menu2" class="container tab-pane fade"><br>
+            <h3>Chronological information</h3>
+            <table class="table table-hover">
+            <tbody>
                   <tr>
                     <td>Timeline</td>
                     <td>32 years before Star Wars: Episode IV A New Hope</td>
@@ -133,17 +142,17 @@
                     <td>Episode II Attack of the Clones</td>
                   </tr>
                 </tbody>
-              </table>
-            </div>
+          </table>
           </div>
-          </div>
-      </article>
+        </div>
+      </div>
     </div>
   </div>
-  <script>
-    w3.includeHTML();
-  </script>
-    <script src="/static/js/bootstrap.js"></script>
-    <script src="/static/js/jquery-3.3.1.js"></script>
+</article>
+<script>
+      w3.includeHTML();
+</script>
+  <script src="/static/js/bootstrap.js"></script>
+  <script src="/static/js/jquery-3.3.1.js"></script>
 </body>
 </html>
